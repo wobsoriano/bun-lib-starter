@@ -1,5 +1,7 @@
 # bun starter
 
+Click the [Use this template](https://github.com/wobsoriano/bun-lib-starter/generate) button to create a new repository or run `bun create wobsoriano/bun-lib-starter ./my-lib`.
+
 ## Using this template
 
 - Search `pkg-name` and replace it with your custom package name.
