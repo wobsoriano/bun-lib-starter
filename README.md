@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Click the [Use this template](https://github.com/wobsoriano/bun-lib-starter/generate) button to create a new repository with this starter.
+Click the [Use this template](https://github.com/wobsoriano/bun-lib-starter/generate) button to create a new repository with the contents starter.
 
 OR
 
