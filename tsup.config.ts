@@ -6,5 +6,4 @@ export default defineConfig({
   format: ['cjs', 'esm'],
   external: ['bun', 'bun:ffi', 'bun:jsc', 'bun:sqlite'],
   dts: true,
-  onSuccess: "bun run build:rust"
 });
