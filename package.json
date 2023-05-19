@@ -13,10 +13,8 @@
   },
   "description": "",
   "scripts": {
-    "build": "tsup",
-    "release": "bumpp --commit --push --tag && npm publish",
-    "prepublishOnly": "bun run build",
-    "test": "bun wiptest"
+    "build": "dts-bundle-generator src/index.ts -o dist/index.d.ts --no-banner && bun run build.ts",
+    "prepublishOnly": "bun run build"
   },
   "files": [
     "dist"
@@ -33,9 +31,8 @@
   "bugs": "https://github.com/wobsoriano/pkg-name/issues",
   "author": "Robert Soriano <sorianorobertc@gmail.com>",
   "devDependencies": {
-    "bumpp": "^9.1.0",
     "bun-types": "^0.6.2",
-    "tsup": "^6.7.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "dts-bundle-generator": "^8.0.1"
   }
 }
