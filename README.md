@@ -8,13 +8,6 @@ OR
 
 Run `bun create wobsoriano/bun-lib-starter ./my-lib`.
 
-## Features
-
-- [bun](https://github.com/oven-sh/bun) as package manager and task runner
-- Bundle with [tsup](https://github.com/egoist/tsup)
-- Release with [bumpp](https://github.com/antfu/bumpp)
-- Beautiful changelogs with [changelogithub](https://github.com/antfu/changelogithub)
-
 ## License
 
 MIT
