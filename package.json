@@ -31,8 +31,8 @@
   "bugs": "https://github.com/wobsoriano/pkg-name/issues",
   "author": "Robert Soriano <sorianorobertc@gmail.com>",
   "devDependencies": {
-    "bun-types": "^0.6.5",
+    "bun-types": "^0.7.0",
     "dts-bundle-generator": "^8.0.1",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.6"
   }
 }
