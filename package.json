@@ -2,18 +2,10 @@
   "name": "pkg-name",
   "version": "0.0.0",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "description": "",
   "scripts": {
-    "build": "dts-bundle-generator src/index.ts -o dist/index.d.ts --no-banner && bun run build.ts",
+    "build": "bun run build.mjs",
     "prepublishOnly": "bun run build"
   },
   "files": [
