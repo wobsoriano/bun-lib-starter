@@ -1,12 +1,8 @@
-const entrypoint = './src/index.ts'
+import dts from 'bun-plugin-dts'
 
-const result = await Bun.build({
-  entrypoints: [entrypoint],
+await Bun.build({
+  entrypoints: ['./src/index.ts'],
   outdir: './dist',
   minify: true,
+  plugins: [dts()]
 })
-
-if (result.success) {
-  await Bun.spawn(['dts-bundle-generator', entrypoint, '-o', './dist/index.d.ts'])
-}
-

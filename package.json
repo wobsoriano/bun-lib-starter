@@ -23,8 +23,8 @@
   "bugs": "https://github.com/wobsoriano/pkg-name/issues",
   "author": "Robert Soriano <sorianorobertc@gmail.com>",
   "devDependencies": {
+    "bun-plugin-dts": "^0.1.0",
     "bun-types": "^0.7.0",
-    "dts-bundle-generator": "^8.0.1",
     "typescript": "^5.1.6"
   }
 }
